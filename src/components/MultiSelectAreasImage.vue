@@ -3,6 +3,7 @@
     <div class="image-decorator" ref="image-area">
       <div :style="{positon: 'relative'}">
         <img
+            v-auth-image="authImage"
             class="original-image"
             :src="url"
             alt="Original Image"
